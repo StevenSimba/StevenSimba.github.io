@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            DATAWORKS
+description:     Mostly Data analytics and Machine Learning
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
@@ -9,12 +9,12 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  name:           steven simba
+  avatar:         simba.jpg
+  bio:            "Data analytics and Machine Learning"
+  email:          your@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:       steven_simba 
   facebook:       
   github:         
   stackexchange:  
