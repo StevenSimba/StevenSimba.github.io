@@ -1,0 +1,48 @@
+,COUNTY,FOREST_AREA,TOTAL_AREA_HA,PERCENTAGE_FOREST_COVER,quartiles
+0,Turkana,285962.0,7035330.0,4.06,Q1 county
+1,Marsabit,129396.0,7602995.0,1.7,Q1 county
+2,Mandera,78914.0,2598251.0,3.04,Q1 county
+3,Wajir,110144.0,5664861.0,1.94,Q1 county
+4,West Pokot,78357.0,933689.0,8.39,Q2 county
+5,Samburu,269325.0,2102371.0,12.81,Q3 county
+6,Isiolo,1356626.0,2538173.0,53.45,model county
+7,Baringo,274157.0,1091197.0,25.12,model county
+8,Keiyo-Marakwet,113145.0,301805.0,37.49,model county
+9,Trans Nzoia,40241.0,249526.0,16.13,Q3 county
+10,Bungoma,45049.0,303123.0,14.86,Q3 county
+11,Garissa,309264.0,4359107.0,7.09,Q2 county
+12,Uasin Gishu,25714.0,340711.0,7.55,Q2 county
+13,Kakamega,29656.0,302246.0,9.81,Q3 county
+14,Laikipia,64794.0,954386.0,6.79,Q2 county
+15,Busia,1848.0,182336.0,1.01,Q1 county
+16,Meru,128028.0,699038.0,18.31,model county
+17,Nandi,74810.0,284655.0,26.28,model county
+18,Siaya,1480.0,354212.0,0.42,Q1 county
+19,Nakuru,69563.0,748920.0,9.29,Q3 county
+20,Vihiga,5501.0,56300.0,9.77,Q3 county
+21,Nyandarua,60310.0,327034.0,18.44,model county
+22,Tharaka,50066.0,258007.0,19.4,model county
+23,Kericho,54150.0,229962.0,23.55,model county
+24,Kisumu,1184.0,267694.0,0.44,Q1 county
+25,Nyeri,126883.0,333623.0,38.03,model county
+26,Tana River,243320.0,3915365.0,6.21,Q2 county
+27,Kitui,215340.0,3043650.0,7.08,Q2 county
+28,Kirinyaga,30515.0,147530.0,20.68,model county
+29,Embu,26242.0,282315.0,9.3,Q3 county
+30,Homa Bay,12334.0,475925.0,2.59,Q1 county
+31,Bomet,33927.0,267196.0,12.7,Q3 county
+32,Nyamira,6568.0,90905.0,7.23,Q2 county
+33,Narok,298828.0,1794207.0,16.66,model county
+34,Kisii,3456.0,132112.0,2.62,Q1 county
+35,Muranga,36729.0,252651.0,14.54,Q3 county
+36,Migori,2029.0,316458.0,0.64,Q1 county
+37,Kiambu,42118.0,254473.0,16.55,Q3 county
+38,Machakos,20218.0,604411.0,3.35,Q1 county
+39,Kajiado,156260.0,2189803.0,7.14,Q2 county
+40,Nairobi,5506.0,70806.0,7.78,Q2 county
+41,Makueni,106746.0,817225.0,13.06,Q3 county
+42,Lamu,209674.0,618507.0,33.9,model county
+43,Kilifi,96115.0,1252382.0,7.67,Q2 county
+44,Taita Taveta,62113.0,1711824.0,3.63,Q1 county
+45,Kwale,44984.0,826391.0,5.44,Q2 county
+46,Mombasa,1462.0,28566.0,5.12,Q2 county
