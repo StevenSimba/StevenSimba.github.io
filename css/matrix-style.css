@@ -373,6 +373,7 @@ h5.map-title{
 	float:right;
 	margin-top:-3px;
 	border-bottom: 1px solid #DDDDDD;
+	z-index: 900;
 }
 .stat-boxes, .quick-actions, .quick-actions-horizontal, .stats-plain {
 	display: block;
