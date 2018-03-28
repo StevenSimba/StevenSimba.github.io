@@ -12,12 +12,28 @@ body {
 	margin-top: -10px; font-family: 'Open Sans', sans-serif; font-size:12px; color:#666;
 }
 #my-header .my-logo {
-	padding-right: 10px
+	
+	float: center;
 	margin-left: -25px;
 	width: 220px;
 	border-right: 6px solid red;
+	
+	
 
 }
+
+
+.my-logo > a {
+	font-weight: bold;
+	font-size: 20px;
+	color: brown;
+	font-family: Bodoni;
+	background-color: #F9F7F5;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
 
 path:hover {
   fill-opacity: .5;
@@ -98,17 +114,7 @@ hr{ border-top-color:#dadada;}
 	padding: 30px;
 }
 
-.my-logo {
-	float: left;
-	width: 220px;
-	font-size: 20px;
-	margin-left: -27px ;
-	font-weight: bold;
-}
-.my-logo > a {
-	color: #27a9e3;
 
-}
 
 #my-header  .my-title{
 	position: relative;
@@ -117,6 +123,7 @@ hr{ border-top-color:#dadada;}
 	font-size: 34px;
 	font-weight: bold;
 	text-align: center;
+
 }
 
 /* Search input */
@@ -237,9 +244,11 @@ h5.map-title{
 #sidebar > ul > li > a > i {
 	margin-right: 10px;
 }
-#sidebar > ul > li.active > a {
+#sidebar > ul > li.active{
+	/*
 	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
-	text-decoration:none;
+	text-decoration:none; */
+	background-color: #27a9e3;
 }
 #sidebar > ul > li > a > .label {
 	margin: 0 20px 0 0;
