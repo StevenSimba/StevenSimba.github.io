@@ -265,7 +265,7 @@ var colorText = ["Under 4.6%", "Between (4.6-8.4)%","Between (8.4-16.6)%", "Over
 var g = svg.append("g")
 
   d3.csv("js/countyForests.csv", function(error, data){ 
-    d3.json("js/kenCounty.json", function(error, json) {
+    d3.json("js/kenya.json", function(error, json) {
 
 
       for( var i=0; i< data.length; i++) {
