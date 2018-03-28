@@ -1491,10 +1491,16 @@ h5.map-title{
 	min-height:20px;
 	width: 50px;	
 }
+.quick-actions .tito {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: bodoni;
+}
 
 .quick-actions>li>a{
 	margin-left: -20px;
 	font-size: 10px;
+	
 }
 
 #user-nav {
