@@ -1,6 +1,8 @@
 /* scatter plot */
 #scatter {
   font: 8px sans-serif;
+  width: 550px;
+  height: 300px;
 }
 
 
@@ -151,13 +153,16 @@
     .chart-wrapper text{font-size: 8px;}
 
 
+
 #scatter {
   padding: 0px 0px 0px 0px;
-  background-color: green;
-  margin-left: -45px;
+  margin-left: -55px;
+  width: 370px;
+  height: 200px;
+  font-size: 6.5px;
 
-  width: 20%;
 }
 
+
 }
-/* end line chart */
+/* end line chart *

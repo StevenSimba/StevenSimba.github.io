@@ -250,7 +250,7 @@ h5.map-title{
 	/*
 	background: url("../img/menu-active.png") no-repeat scroll right center transparent !important;
 	text-decoration:none; */
-	background-color: #27a9e3;
+	background-color: #0CB00C;
 }
 #sidebar > ul > li > a > .label {
 	margin: 0 20px 0 0;
@@ -555,7 +555,7 @@ h5.map-title{
 
 .site-stats {
 	margin: 0;
-	padding: 0; text-align:center;
+	padding-left: 150px; text-align:center;
 	list-style: none;
 }
 .site-stats li {
@@ -1368,15 +1368,27 @@ form {
 /* Responsive design */
 @media (max-width: 480px) {
 
-
-
-#my-header .my-logo {
-	padding-right: 5px;
+#my-header .my-title {
 	font-size: 13px;
-	margin-left: -25px;
-	width: 100px;
-	border-right: 3px solid red;
+	padding-left: 0px;
+	margin-left: 0px;
+}
 
+#maps  .legend {
+	margin-left:-240px;
+	margin-top: -30px;
+}
+
+#my-header .my-logo a {
+	font-size: 16px;
+	margin-left: 0px;
+	border-right: 3px solid red;
+	padding-right: 2px;
+	padding-left: 2px;
+
+}
+.my-charts {
+	margin-bottom: -70px;
 }
 .my-charts > .span6 {
  float: none;
@@ -1415,10 +1427,10 @@ width: 330px;
 	width: 100%;
 }
 
-.widgets .tito {
+.widgets .accordion-heading .tito {
 	color: black;
 	font-size: 12px;
-	font-weight: bold;
+	padding-left: 0px;
 }
 .widgets .wigi .content {
 	  
@@ -1426,12 +1438,18 @@ width: 330px;
 }
 
 .row-map #maps {
-	margin-left: -95px;
+	margin-left: -65px;
+	clear: both;
+
+}
+.row-map {
+	margin-bottom: -4px;
 }
 .site-stats{
-	position: relative;
-	margin-right: -250px;
-	opacity: 0.8;
+
+	width: 60%;
+	padding-left: 0px;
+
 }
 .site-stats li {
 	color: blue;
@@ -1444,18 +1462,23 @@ width: 330px;
 .site-stats li i{ font-size:14px; clear:both}
 
 
+
+
 h5.map-title{
+	margin-left: 0px;
+	margin-right: 0px;
 	color: blue;
 	position: relative;
-	margin-left: 10px;
 	font-size: 11px;
+	width: 320px;
 
 }
 
 #my-header .my-title {
 	font-size: 13px;
 	padding-left: 0px;
-	margin-left: 90px;
+	padding-top: 10px;
+
 }
 .quick-actions {
 	margin-left: -20px;
@@ -1498,12 +1521,6 @@ h5.map-title{
 	width:100%;
 	background:#000;
 	position: relative;
-}
-#maps {
-margin-left: -80px;
-width: 50%;
-height: 50%;
-clear: both;
 }
 
 

@@ -1,7 +1,13 @@
-//Starter scatter 
-var margin = { top : 20, right: 20, bottom: 30, left: 80}, width = 550 - margin.left - margin.right, height = 300 - margin.top - margin.bottom ;
-/*
+//Starter scatter
 
+var c_width = parseInt($("#scatter").css("width"), 10)  //BADASS
+var c_height = parseInt(d3.select("#scatter").style("height"), 10) 
+/*
+var c_width = parseInt($("#scatter").css("width"), 10)
+var c_height = parseInt($("#scatter").css("height"), 10)
+*/
+var margin = { top : 20, right: 20, bottom: 30, left: 80}, width = c_width - margin.left - margin.right, height = c_height - margin.top - margin.bottom ;
+/*
 var xScale = d3.scale.linear().domain([
 	d3.min([0, d3.min(data, function(d) { return d.T})])]) */
 
