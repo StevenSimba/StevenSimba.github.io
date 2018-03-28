@@ -17,9 +17,11 @@ body {
 	margin-left: -25px;
 	width: 220px;
 	border-right: 6px solid red;
-	
-	
 
+}
+
+.site-stats .cpercent {
+	padding-left: 2px;
 }
 
 
