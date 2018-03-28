@@ -1374,10 +1374,16 @@ form {
 	padding-left: 0px;
 	margin-left: 0px;
 }
+.row-map #maps {
+	margin-left: -76px;
+	clear: both;
+
+}
 
 #maps  .legend {
-	margin-left:-240px;
-	margin-top: -30px;
+	margin-left:-390px;
+	margin-top: 260px;
+	width: 39%;
 }
 
 #my-header .my-logo a {
@@ -1438,11 +1444,7 @@ width: 330px;
  font-size: 10px;
 }
 
-.row-map #maps {
-	margin-left: -65px;
-	clear: both;
 
-}
 .row-map {
 	margin-bottom: -4px;
 }
