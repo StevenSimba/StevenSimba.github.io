@@ -1300,6 +1300,7 @@ form {
     right: 10px;
     top:25px;
     color: black;
+    padding-left: 2px;
 }
 #sidebar .progress {
     margin-bottom: 2px;
