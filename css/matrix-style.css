@@ -1369,10 +1369,54 @@ form {
 /* Responsive design */
 @media (max-width: 480px) {
 
+#my-bar {
+	display: block !important;
+	margin-top: 8px;
+	width: 100%;
+	background: #27a9e3;
+}
+#my-bar ul {
+    padding-left: 135px;
+}
+
+#my-bar ul li {
+	border-right: 2px solid black;
+
+}
+#my-bar ul li:first-of-type{
+	border-left: 2px solid black;
+}
+#my-bar ul li.active {
+	background: white;
+}
+#my-bar ul li:hover {
+	color: #27a9e3;
+	background: white; 
+}
+#my-bar ul li a {
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#my-header {
+	padding: 0px 0px 15px 28px;
+}
+
+
 #my-header .my-title {
-	font-size: 13px;
+	font-size: 12px;
 	padding-left: 0px;
 	margin-left: 0px;
+}
+
+#my-header .my-logo {
+	
+	float: left; 
+	margin-left: -25px;
+	width: 100px;
+	border-right: 3px solid red;
+
 }
 .row-map #maps {
 	margin-left: -76px;
@@ -1387,11 +1431,10 @@ form {
 }
 
 #my-header .my-logo a {
-	font-size: 16px;
+	font-size: 12px;
 	margin-left: 0px;
-	border-right: 3px solid red;
-	padding-right: 2px;
-	padding-left: 2px;
+	padding-right: 0px;
+	padding-left: 1px;
 
 }
 .my-charts {
@@ -1477,22 +1520,21 @@ h5.map-title{
 
 }
 
-#my-header .my-title {
-	font-size: 13px;
-	padding-left: 0px;
-	padding-top: 10px;
 
-}
 .quick-actions {
-	margin-left: -20px;
+	margin-left: -14px;
 }
 .quick-actions>li {
 	min-width:80px;
 	min-height:20px;
 	width: 50px;	
+	margin-right: 6px;
+}
+.quick-actions>li:last-of-type{
+	min-width: 110px;
 }
 .quick-actions .tito {
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: bold;
 	font-family: bodoni;
 }
@@ -1569,7 +1611,7 @@ h5.map-title{
 #sidebar {
 	float: none;
 	width: 100% !important;
-	display:block;
+	display:none;
 	position:relative;
 	top:0px;
 }
