@@ -1381,6 +1381,7 @@ form {
 
 #my-bar ul li {
 	border-right: 2px solid black;
+	padding: 0px 6px 0px 6px;
 
 }
 #my-bar ul li:first-of-type{
