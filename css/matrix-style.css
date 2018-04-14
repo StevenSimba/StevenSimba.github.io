@@ -2,15 +2,25 @@
 	outline:none !important;
 	-moz-outline: none !important;
 }
-html, body{height:100%;  background-color: green;}
+html, body {
+
+	width: 100%; 
+	overflow-x: hidden; 
+}
+
 /* Main */
 
 /*Bootstrap-overlay*/
 
 body {
-	overflow-x: hidden;
+	background-color: green;
 	margin-top: -10px; font-family: 'Open Sans', sans-serif; font-size:12px; color:#666;
 }
+#my-header {
+	padding: 40px 30px 20px 30px;
+}
+
+
 #my-header .my-logo {
 	
 	float: center;
@@ -20,6 +30,18 @@ body {
 
 }
 
+
+
+#my-header  .my-title{
+	margin-top: -25px;
+	position: relative;
+	margin-left: 190px;
+	color: black;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+
+}
 .site-stats .cpercent {
 	padding-left: 2px;
 }
@@ -91,7 +113,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	white-space:normal;
 }
 .form-horizontal .form-actions{ padding-left:20px; }
-#footer{ padding:10px; text-align:center;}
+#footer{ padding-top: 2px; text-align:center;}
 hr{ border-top-color:#dadada;}
 .carousel{ margin-bottom:0px;}
 .fl { float:left}
@@ -112,21 +134,7 @@ hr{ border-top-color:#dadada;}
 .bg_lh{ background:#b6b3b3;}
 
 /* Header */
-#my-header {
-	padding: 30px;
-}
 
-
-
-#my-header  .my-title{
-	position: relative;
-	margin-left: 190px;
-	color: black;
-	font-size: 34px;
-	font-weight: bold;
-	text-align: center;
-
-}
 
 /* Search input */
 #search {
@@ -1369,9 +1377,15 @@ form {
 /* Responsive design */
 @media (max-width: 480px) {
 
+html, body {
+	
+	width: 100%; 
+	overflow-x: hidden; 
+}
+
 #my-bar {
 	display: block !important;
-	margin-top: 8px;
+	margin-top: 10px;
 	width: 100%;
 	background: #27a9e3;
 }
@@ -1401,22 +1415,31 @@ form {
 }
 
 #my-header {
-	padding: 0px 0px 15px 28px;
+	padding: 25px 0px 3px 28px;
 }
 
 
 #my-header .my-title {
 	font-size: 12px;
 	padding-left: 0px;
-	margin-left: 0px;
+	margin-left: 60px;
+	margin-top: -30px;
 }
 
 #my-header .my-logo {
 	
 	float: left; 
 	margin-left: -25px;
+	margin-top: -30px;
 	width: 100px;
 	border-right: 3px solid red;
+
+}
+#my-header .my-logo a {
+	font-size: 12px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 1px;
 
 }
 .row-map #maps {
@@ -1431,13 +1454,7 @@ form {
 	width: 39%;
 }
 
-#my-header .my-logo a {
-	font-size: 12px;
-	margin-left: 0px;
-	padding-right: 0px;
-	padding-left: 1px;
 
-}
 .my-charts {
 	margin-bottom: -70px;
 }
