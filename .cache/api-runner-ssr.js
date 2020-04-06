@@ -1,17 +1,17 @@
 var plugins = [{
-      plugin: require('/home/steve/Desktop/gatsby_demos/flex/node_modules/gatsby-remark-images/gatsby-ssr'),
+      plugin: require('/home/steve/Desktop/gatsby_demos/stevensimba.github.io/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[],"maxWidth":970},
     },{
-      plugin: require('/home/steve/Desktop/gatsby_demos/flex/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/home/steve/Desktop/gatsby_demos/stevensimba.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/steve/Desktop/gatsby_demos/flex/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/home/steve/Desktop/gatsby_demos/stevensimba.github.io/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/steve/Desktop/gatsby_demos/flex/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/steve/Desktop/gatsby_demos/stevensimba.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"flexible-gatsby-starter","short_name":"flexible-gatsby","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"./static/gatsby-icon.png"},
     },{
-      plugin: require('/home/steve/Desktop/gatsby_demos/flex/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/steve/Desktop/gatsby_demos/stevensimba.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
