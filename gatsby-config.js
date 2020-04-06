@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Data Square`,
+    title: `Data Square: Chini ya Mnazi`,
     description: `A curious data researcher. I want to understand things and to share my perspectives.`,
     author: `Steven Simba`,
     siteUrl: `https://stevensimba.github.io`,
